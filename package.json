@@ -1,0 +1,40 @@
+{
+    "name": "@loopsc/dropdown-menu",
+    "version": "1.0.1",
+    "author": "loopsc",
+    "description": "Dropdown element module with click and hover options",
+    "main": "dist/index.js",
+    "exports": {
+        ".": "./dist/index.js"
+    },
+    "scripts": {
+        "dev": "webpack serve --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "keywords": [
+        "dropdown",
+        "ui",
+        "component"
+    ],
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/loopsc/dropdown-menu.git"
+    },
+    "bugs": {
+        "url": "https://github.com/loopsc/dropdown-menu/issues"
+    },
+    "homepage": "https://github.com/loopsc/dropdown-menu#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "css-loader": "^7.1.2",
+        "html-webpack-plugin": "^5.6.3",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.99.9",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.1"
+    },
+    "files": [
+        "dist"
+    ]
+}
